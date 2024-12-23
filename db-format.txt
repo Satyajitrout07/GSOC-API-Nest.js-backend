@@ -1,0 +1,28 @@
+src/entities/
+│
+├── 1. Independent Entities
+│   ├── season.entity.ts
+│   ├── venue.entity.ts
+│   ├── format.entity.ts
+│   ├── throw-type.entity.ts
+│   └── curler.entity.ts
+│
+├── 2. First Level Dependencies
+│   ├── sheet.entity.ts
+│   ├── team.entity.ts
+│   └── competition.entity.ts
+│
+├── 3. Second Level Dependencies
+│   ├── competition-round.entity.ts
+│   └── competition-team.entity.ts
+│
+├── 4. Third Level Dependencies
+│   └── match.entity.ts
+│
+├── 5. Fourth Level Dependencies
+│   ├── match-team.entity.ts
+│   ├── end.entity.ts
+│   └── lsd-throw.entity.ts
+│
+└── 6. Final Level Dependencies
+    └── throw.entity.ts
